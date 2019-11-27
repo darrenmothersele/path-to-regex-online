@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Path to Regex</title>
+    <style>
+        html {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            line-height: 1.5;
+        }
+        main {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 0.25rem;
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.1;
+            outline: 0;
+        }
+        input:focus {
+            outline: 0;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+        }
+        #output {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Path to Regex</h1>
+    <p>
+        Turn a path string such as <code>/user/:id</code> or <code>/user/:id(\d+)</code> into a regular expression.
+        Based on <a href="https://github.com/lastuniverse/path-to-regex#readme"><code>path-to-regex</code></a>.
+    </p>
+    <label for="path-input">Path:</label>
+    <input type="text" id="path-input">
+    <pre id="output"></pre>
+</main>
+<script type="module" src="bundle.js"></script>
+</body>
+</html>

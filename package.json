@@ -1,0 +1,21 @@
+{
+  "name": "regex-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "serve": "serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "path-to-regex": "^1.3.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.27.5",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "serve": "^11.2.0"
+  }
+}
